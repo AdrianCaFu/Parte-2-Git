@@ -10,4 +10,10 @@ package com.mycompany.canofuentes;
  */
 public class Fuentes {
     
+    public static void imprime(){
+        
+        System.out.println("Tarea de Entornos");
+    }
+    
+    
 }

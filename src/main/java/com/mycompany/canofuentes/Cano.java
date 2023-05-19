@@ -10,4 +10,10 @@ package com.mycompany.canofuentes;
  */
 public class Cano {
     
+    public static int multiplicacion(int a, int b){
+        
+        return a*b;
+        
+    }
+    
 }

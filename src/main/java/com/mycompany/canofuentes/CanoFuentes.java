@@ -5,6 +5,9 @@
 
 package com.mycompany.canofuentes;
 
+import static com.mycompany.canofuentes.Cano.multiplicacion;
+import static com.mycompany.canofuentes.Fuentes.imprime;
+
 /**
  *
  * @author eladr
@@ -12,6 +15,11 @@ package com.mycompany.canofuentes;
 public class CanoFuentes {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        int a=5;
+        int b=7;
+        System.out.println(multiplicacion(a,b));
+        
+        imprime();
     }
 }
