@@ -6,6 +6,8 @@
 package com.mycompany.canofuentes;
 
 import static com.mycompany.canofuentes.Cano.multiplicacion;
+import static com.mycompany.canofuentes.Cano.suma;
+import static com.mycompany.canofuentes.Fuentes.cadena;
 import static com.mycompany.canofuentes.Fuentes.imprime;
 
 /**
@@ -21,5 +23,10 @@ public class CanoFuentes {
         System.out.println(multiplicacion(a,b));
         
         imprime();
+        
+        System.out.println(suma(a,b));
+        
+        cadena();
+        
     }
 }

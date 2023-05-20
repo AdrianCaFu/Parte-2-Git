@@ -16,4 +16,11 @@ public class Fuentes {
     }
     
     
+    public static void cadena(){
+        
+        System.out.println("Ahora imprimo esta cadena");
+    }
+    
+    
+    
 }
